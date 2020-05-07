@@ -1,0 +1,32 @@
+/* search.inc.php, search2.inc.php */
+.search input[type="text"] {
+	background-color: #fff;
+	color: #333;
+	width: 94%;
+	border: 1px solid #ddd;
+	font-size: 100%;
+	margin: 0.2em 0;
+	padding: 0.5em;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.1) inset;
+}
+.search input[type="radio"] {
+	margin: 0.2em 0;
+}
+.search input[type="submit"] {
+	text-align: center;
+	display: inline-block;
+	margin: 0.2em 0 0.4em;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #808080;
+    color: #808080;
+	background: #fff;
+	cursor: pointer;
+	transition: .2s;
+}
+.search input[type="submit"]:hover {
+	color: #fff;
+	background: #808080;
+}
