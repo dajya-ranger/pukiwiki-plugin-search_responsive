@@ -17,7 +17,8 @@
  * @example		#search
  * @example		@linkの内容を参照
  * @license		Apache License 2.0
- * @version		0.1.0
+ * @version		0.2.0
+ * @since 		0.2.0 2020/05/14 PukiWiki1.5.3正式対応
  * @since 		0.1.0 2020/05/08 暫定初公開
  *
  */
@@ -372,10 +373,10 @@ EOD;
  <p>$_msg_unsupported_webbrowser $alt_msg</p>
 </noscript>
 <style>
-input#_plugin_search2_detail:checked ~ ul > div.search-result-detail {
+input#_plugin_search2_detail:checked ~ ul > li > div.search-result-detail {
   display:block;
 }
-input#_plugin_search2_detail ~ ul > div.search-result-detail {
+input#_plugin_search2_detail ~ ul > li > div.search-result-detail {
   display:none;
 }
 ._plugin_search2_search_status {
