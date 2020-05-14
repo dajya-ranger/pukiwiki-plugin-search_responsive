@@ -1,6 +1,6 @@
 # pukiwiki-plugin-search_responsive
 
-PukiWiki用レスポンシブデザイン対応検索プラグイン
+PukiWiki用レスポンシブデザイン対応サイト内検索プラグイン
 
 - 暫定公開版です（[PukiWiki1.5.2](https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.2)で動作確認済）
 - [PukiWiki1.5.2](https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.2)標準のsearch（search2）プラグインをレスポンシブデザインに対応したもので、機能的な変更はほぼありません
